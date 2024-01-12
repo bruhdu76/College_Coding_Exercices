@@ -2,7 +2,7 @@ def fibonacci(terme: int) -> int:
     """
     Calcul la suite de fibonacci par récurrence
     :param terme: c'est le n ième terme fourni en paramètre
-    :return: le n ième résultat de la suite de fibonacci
+    :return: le n ième terme de la suite de fibonacci
     """
 
     if terme <= 1:
@@ -20,6 +20,11 @@ if __name__ == "__main__":
 # Deuxième méthode
 
 def fibo(indice: int) -> int:
+    """
+    Calcul la suite de fibonacci
+    :param indice: C'est le n ième
+    :return: Le n ième terme de la suite de fibonacci
+    """
     if indice < 2:
         fibo = indice
     else:
