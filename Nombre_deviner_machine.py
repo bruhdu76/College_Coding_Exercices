@@ -17,7 +17,7 @@ def deviner_nombre_inverser() -> None:
             nombre_machine = randint(borne_min, borne_max)
             nb_operatons += 1
         elif nombre_machine > nombre_utilisateur:
-            borne_max = nombre_utilisateur
+            borne_max = nombre_machine
             nombre_machine = randint(borne_min, borne_max)
             nb_operatons += 1
     return print(f"Bonne réponse ! |{nombre_machine}|, le nombre d'opérations est de |{nb_operatons}|")
